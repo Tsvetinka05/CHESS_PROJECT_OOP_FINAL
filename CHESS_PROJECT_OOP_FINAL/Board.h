@@ -46,4 +46,6 @@ public:
     Position getLastMoveTo() const;
     void setLastMove(const Position& from, const Position& to);
 
+    Position findKing(Color color) const;
+
 };

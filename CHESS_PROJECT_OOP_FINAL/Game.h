@@ -19,7 +19,7 @@ public:
     bool isMoveLegal(const Position& from, const Position& to) const;
     bool makeMove(const Position& from, const Position& to);
 
-    bool isInCheck(Color color) const;
+    bool isInCheck(Color color, const Board& custonBoard) const;
     bool isCheckmate(Color color);
     bool isStalemate(Color color);
     bool hasLegalMove(Color color) const;

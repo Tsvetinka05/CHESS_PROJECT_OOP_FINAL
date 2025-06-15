@@ -168,15 +168,13 @@ void Board::movePiece(const Position& from, const Position& to, bool simulate) {
         return;
     }
 
-    //     En Passant capture 
+    // === En Passant capture ===
     if (dynamic_cast<Pawn*>(moving) && from.col != to.col && squares[to.row][to.col] == nullptr) {
         int direction = (moving->getColor() == Color::White) ? 1 : -1;
         Position capturedPos(to.row + direction, to.col);
         Figure* captured = squares[capturedPos.row][capturedPos.col];
 
-        if (captured && dynamic_cast<Pawn*>(captured) &&
-            captured->getColor() != moving->getColor()) {
-
+        if (captured && dynamic_cast<Pawn*>(captured) && captured->getColor() != moving->getColor()) {
             if (!simulate) {
                 delete captured;
             }
@@ -184,13 +182,13 @@ void Board::movePiece(const Position& from, const Position& to, bool simulate) {
         }
     }
 
-    //      Standard capture
+    // === Standard capture ===
     if (squares[to.row][to.col] && squares[to.row][to.col] != moving) {
         if (!simulate) delete squares[to.row][to.col];
         squares[to.row][to.col] = nullptr;
     }
 
-    //      Move the piece 
+    // === Move the piece ===
     squares[to.row][to.col] = moving;
     squares[from.row][from.col] = nullptr;
 
@@ -199,7 +197,7 @@ void Board::movePiece(const Position& from, const Position& to, bool simulate) {
         setLastMove(from, to);
     }
 
-    //      Promotion 
+    // === Promotion ===
     if (!simulate) {
         Figure*& landed = squares[to.row][to.col];
         if (dynamic_cast<Pawn*>(landed)) {
@@ -207,31 +205,23 @@ void Board::movePiece(const Position& from, const Position& to, bool simulate) {
                 (landed->getColor() == Color::Black && to.row == 7);
 
             if (promote) {
-                try {
+                char choice;
+                do {
                     std::cout << "Choose promotion (q – Queen, r – Rook, b – Bishop, n – Knight): ";
-                    char choice;
                     std::cin >> choice;
+                    choice = std::tolower(choice);
+                    std::cin.ignore(1000, '\n');
+                } while (choice != 'q' && choice != 'r' && choice != 'b' && choice != 'n');
 
-                    Color color = landed->getColor();
-                    delete landed;
-                    landed = nullptr;
+                Color color = landed->getColor();
+                delete landed;
+                landed = nullptr;
 
-                    switch (choice) {
-                    case 'q': landed = new Queen(color); break;
-                    case 'r': landed = new Rook(color); break;
-                    case 'b': landed = new Bishop(color); break;
-                    case 'n': landed = new Knight(color); break;
-                    default:
-                        std::cout << "Invalid choice. Promoting to Queen.\n";
-                        landed = new Queen(color); break;
-                    }
-
-                }
-                catch (const std::exception& ex) {
-                    std::cerr << "[EXCEPTION] Promotion failed: " << ex.what() << std::endl;
-                }
-                catch (...) {
-                    std::cerr << "[EXCEPTION] Unknown error during promotion!" << std::endl;
+                switch (choice) {
+                case 'q': landed = new Queen(color); break;
+                case 'r': landed = new Rook(color); break;
+                case 'b': landed = new Bishop(color); break;
+                case 'n': landed = new Knight(color); break;
                 }
             }
         }
@@ -266,4 +256,15 @@ void Board::setLastMove(const Position& from, const Position& to) {
 }
 
 
+Position Board::findKing(Color color) const {
+    for (int row = 0; row < 8; ++row) {
+        for (int col = 0; col < 8; ++col) {
+            const Figure* fig = squares[row][col];
+            if (fig && fig->getColor() == color && dynamic_cast<const King*>(fig)) {
+                return Position(row, col);
+            }
+        }
+    }
 
+    return Position(-1, -1);  // Ако не бъде намерен
+}

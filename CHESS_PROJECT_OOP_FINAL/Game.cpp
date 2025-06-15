@@ -18,10 +18,10 @@ lastMoveFrom(-1, -1), lastMoveTo(-1, -1) {
 
 
 void Game::printBoard() const {
-    std::wcout << L"From White's perspective:\n";
+    std::wcout << L"From Black's perspective:\n";
     board.print(true);
 
-    std::wcout << L"\nFrom Black's perspective:\n";
+    std::wcout << L"\nFrom White's perspective:\n";
     board.print(false);
 }
 
@@ -51,11 +51,10 @@ bool Game::isMoveLegal(const Position& from, const Position& to) const {
 
     Game tempGame = *this;
     tempGame.board = tempBoard;
-    return !tempGame.isInCheck(currentPlayer);
+    return !tempGame.isInCheck(currentPlayer, tempGame.getBoard());
 }
 
 bool Game::makeMove(const Position& from, const Position& to) {
-
     if (!from.isValid() || !to.isValid()) {
         std::cout << "[ERROR] Invalid coordinates.\n";
         return false;
@@ -67,29 +66,32 @@ bool Game::makeMove(const Position& from, const Position& to) {
         return false;
     }
 
-    Color pieceColor = moving->getColor();
-
-    if (pieceColor != currentPlayer) {
+    if (moving->getColor() != currentPlayer) {
         std::cout << "[ERROR] It's not this player's turn.\n";
         return false;
     }
 
     if (!isMoveLegal(from, to)) {
-        std::cout << "[ERROR] Move is not legal.\n";
+        if (isInCheck(currentPlayer, board)) {
+            std::cout << "[ERROR] You are in check. You must escape check.\n";
+        }
+        else {
+            std::cout << "[ERROR] Move is not legal.\n";
+        }
         return false;
     }
 
     board.movePiece(from, to);
 
-
+    // Рокада
     Figure* landed = board.getPieceAt(to);
     if (landed && dynamic_cast<King*>(landed)) {
         int row = to.row;
         if (to.col - from.col == 2) {
-            board.movePiece(Position(row, 7), Position(row, 5));
+            board.movePiece(Position(row, 7), Position(row, 5)); // Къса
         }
         else if (from.col - to.col == 2) {
-            board.movePiece(Position(row, 0), Position(row, 3));
+            board.movePiece(Position(row, 0), Position(row, 3)); // Дълга
         }
     }
 
@@ -126,10 +128,20 @@ bool Game::isAttacked(const Position& pos, Color byColor) const {
     return false;
 }
 
-bool Game::isInCheck(Color color) const {
-    Position kingPos = findKing(color);
-    Color opponent = (color == Color::White ? Color::Black : Color::White);
-    return isAttacked(kingPos, opponent);
+bool Game::isInCheck(Color color, const Board& customBoard) const {
+    Position kingPos = customBoard.findKing(color);
+    if (!kingPos.isValid())
+        return false;
+
+    for (int r = 0; r < 8; ++r) {
+        for (int c = 0; c < 8; ++c) {
+            const Figure* fig = customBoard.getPieceAt(Position(r, c));
+            if (fig && fig->getColor() != color && fig->isMoveValid(Position(r, c), kingPos, customBoard)) {
+                return true;
+            }
+        }
+    }
+    return false;
 }
 
 
@@ -144,16 +156,14 @@ bool Game::hasLegalMove(Color color) const {
             for (int toRow = 0; toRow < 8; ++toRow) {
                 for (int toCol = 0; toCol < 8; ++toCol) {
                     Position to(toRow, toCol);
+
                     if (!fig->isMoveValid(from, to, board))
                         continue;
 
                     Board tempBoard = board;
                     tempBoard.movePiece(from, to, true);
 
-                    Game tempGame = *this;
-                    tempGame.board = tempBoard;
-
-                    if (!tempGame.isInCheck(color))
+                    if (!isInCheck(color, tempBoard))  // <- тук е ключовото
                         return true;
                 }
             }
@@ -163,12 +173,12 @@ bool Game::hasLegalMove(Color color) const {
 }
 
 bool Game::isCheckmate(Color color) {
-    return isInCheck(color) && !hasLegalMove(color);
+    return isInCheck(color,board) && !hasLegalMove(color);
 }
 
 
 bool Game::isStalemate(Color color) {
-    return !isInCheck(color) && !hasLegalMove(color);
+    return !isInCheck(color, board) && !hasLegalMove(color);
 }
 
 void Game::saveGame(const std::string& filename) const {
