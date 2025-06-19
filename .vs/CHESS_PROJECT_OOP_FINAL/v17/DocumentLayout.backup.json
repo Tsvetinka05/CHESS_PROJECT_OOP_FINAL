@@ -19,52 +19,24 @@
       "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Queen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\Queen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Pawn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\Pawn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Bishop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\Bishop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\King.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\King.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Figure.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\Figure.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Rook.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\Rook.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\King.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\King.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Figure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\Figure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Bishop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\Bishop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Rook.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\Rook.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\ConsoleColors.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\ConsoleColors.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Bishop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\Bishop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Position.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B034C176-2C15-4B3E-B063-045C95CC7278}|CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.vcxproj|solutionrelative:CHESS_PROJECT_OOP_FINAL\\Position.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,54 +58,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Queen.cpp",
-              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Queen.cpp",
-              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\Queen.cpp",
-              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Queen.cpp",
-              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\Queen.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-13T16:59:41.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Board.cpp",
               "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Board.cpp",
               "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\Board.cpp",
               "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Board.cpp",
               "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\Board.cpp",
-              "ViewState": "AgIAAPAAAAAAAAAAAAAuwA0BAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAMcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-12T07:37:42.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.cpp",
-              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\App.cpp",
-              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\App.cpp",
-              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\App.cpp",
-              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\App.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAuwC8AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-12T07:31:29.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "King.cpp",
-              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\King.cpp",
-              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\King.cpp",
-              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\King.cpp",
-              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\King.cpp",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwB0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-12T21:39:04.268Z",
+              "WhenOpened": "2025-06-19T07:09:26.898Z",
               "EditorCaption": ""
             },
             {
@@ -144,61 +77,47 @@
               "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\Game.cpp",
               "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Game.cpp",
               "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\Game.cpp",
-              "ViewState": "AgIAABkBAAAAAAAAAAAwwCoBAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAADQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-12T07:23:02.23Z",
+              "WhenOpened": "2025-06-19T07:09:19.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.cpp",
+              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\App.cpp",
+              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\App.cpp",
+              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\App.cpp",
+              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\App.cpp",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAswHcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-19T07:08:51.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Pawn.cpp",
-              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Pawn.cpp",
-              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\Pawn.cpp",
-              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Pawn.cpp",
-              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\Pawn.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-13T14:29:47.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CHESS_PROJECT_OOP_FINAL.cpp",
-              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.cpp",
-              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.cpp",
-              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.cpp",
-              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-13T07:03:23.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Figure.h",
-              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Figure.h",
-              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\Figure.h",
-              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Figure.h",
-              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\Figure.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAewBEAAAAHAAAAAAAAAA==",
+              "Title": "King.h",
+              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\King.h",
+              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\King.h",
+              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\King.h",
+              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\King.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-12T08:55:19.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T07:03:34.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Game.h",
-              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Game.h",
-              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\Game.h",
-              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Game.h",
-              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\Game.h",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-12T07:35:00.999Z",
+              "DocumentIndex": 5,
+              "Title": "King.cpp",
+              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\King.cpp",
+              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\King.cpp",
+              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\King.cpp",
+              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\King.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-19T06:59:23.422Z",
               "EditorCaption": ""
             },
             {
@@ -209,82 +128,47 @@
               "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\Board.h",
               "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Board.h",
               "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\Board.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-12T08:10:10.599Z",
+              "WhenOpened": "2025-06-19T06:56:08.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Figure.cpp",
               "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Figure.cpp",
               "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\Figure.cpp",
               "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Figure.cpp",
               "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\Figure.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-12T08:57:21.932Z"
+              "WhenOpened": "2025-06-19T06:51:04.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "Bishop.cpp",
               "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Bishop.cpp",
               "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\Bishop.cpp",
               "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Bishop.cpp",
               "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\Bishop.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwCUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-13T16:50:02.278Z"
+              "WhenOpened": "2025-06-19T06:50:58.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Rook.cpp",
-              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Rook.cpp",
-              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\Rook.cpp",
-              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Rook.cpp",
-              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\Rook.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-13T16:59:52.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Rook.h",
-              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Rook.h",
-              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\Rook.h",
-              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Rook.h",
-              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\Rook.h",
+              "DocumentIndex": 8,
+              "Title": "Position.h",
+              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Position.h",
+              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\Position.h",
+              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Position.h",
+              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\Position.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-13T08:04:38.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ConsoleColors.h",
-              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\ConsoleColors.h",
-              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\ConsoleColors.h",
-              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\ConsoleColors.h",
-              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\ConsoleColors.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-13T11:18:46.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Bishop.h",
-              "DocumentMoniker": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Bishop.h",
-              "RelativeDocumentMoniker": "CHESS_PROJECT_OOP_FINAL\\Bishop.h",
-              "ToolTip": "C:\\Users\\cveti\\source\\repos\\CHESS_PROJECT_OOP_FINAL\\CHESS_PROJECT_OOP_FINAL\\Bishop.h",
-              "RelativeToolTip": "CHESS_PROJECT_OOP_FINAL\\Bishop.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-13T16:37:23.904Z"
+              "WhenOpened": "2025-06-19T06:44:54.515Z"
             }
           ]
         }

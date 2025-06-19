@@ -54,24 +54,6 @@ Figure* King::clone() const {
     return new King(color);
 }
 
-bool King::isCastlingMove(const Position& from, const Position& to, const Board& board) const {
-    if (wasMoved()) return false;
-    if (from.row != to.row || std::abs(from.col - to.col) != 2) return false;
 
-    int row = from.row;
-    int dir = (to.col > from.col) ? 1 : -1;
-    int rookCol = (dir == 1) ? 7 : 0;
-
-    const Figure* rook = board.getPieceAt({ row, rookCol });
-    if (!rook || rook->getColor() != color || rook->wasMoved())
-        return false;
-
-    for (int c = from.col + dir; c != rookCol; c += dir) {
-        if (board.getPieceAt(Position(row, c)) != nullptr)
-            return false;
-    }
-
-    return true;
-}
 
 

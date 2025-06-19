@@ -30,7 +30,7 @@ void App::run() {
         std::cout << "Do you want to load the last game? (y - yes / n - no): ";
         std::cin >> loadChoice;
         loadChoice = std::tolower(loadChoice);
-        std::cin.ignore(1000, '\n'); // изчистване на излишен вход
+        std::cin.ignore(1000, '\n');
     } while (loadChoice != 'y' && loadChoice != 'n');
 
     if (loadChoice == 'y') {
@@ -44,7 +44,6 @@ void App::run() {
         system("cls");
         game.printBoard();
 
-        // Показване ако играчът е в шах
         if (game.isInCheck(game.getCurrentPlayer(), game.getBoard())) {
             std::cout << "You are in check!\n";
         }
@@ -58,16 +57,6 @@ void App::run() {
             std::cin.clear();
             std::cin.ignore(1000, '\n');
             std::cout << "Invalid input. Please enter coordinates like e2 e4.\n";
-            system("pause");
-            continue;
-        }
-
-        if (fromStr == "exit" || toStr == "exit")
-            break;
-
-        if (fromStr == "save") {
-            game.saveGame("chess_game.dat");
-            std::cout << "Game saved successfully!\n";
             system("pause");
             continue;
         }
@@ -90,7 +79,6 @@ void App::run() {
         system("cls");
         game.printBoard();
 
-        // Валидация на избор за запазване
         char saveChoice;
         do {
             std::cout << "Do you want to save the game? (y - yes / n - no): ";
@@ -103,7 +91,6 @@ void App::run() {
             game.saveGame("chess_game.dat");
             std::cout << "Game saved successfully!\n";
 
-            // Валидация за продължаване
             char cont;
             do {
                 std::cout << "Do you want to continue playing? (y - yes / n - no): ";
@@ -120,7 +107,6 @@ void App::run() {
             system("pause");
         }
 
-        // Проверка за край на играта
         if (game.isCheckmate(game.getCurrentPlayer())) {
             std::cout << "Checkmate! The game is over.\n";
             break;

@@ -226,7 +226,6 @@ void Game::loadGame(const std::string& filename) {
 
     board.clear();
 
-    // Load current player
     inFile.read(reinterpret_cast<char*>(&currentPlayer), sizeof(currentPlayer));
 
     for (int i = 0; i < 8; ++i) {
